@@ -1,0 +1,254 @@
+openapi: 3.0.3
+info:
+  title: W2Sell
+  description: ''
+  version: 1.0.0
+servers:
+  -
+    url: 'http://app.w2sell.test'
+paths:
+  /api/login:
+    post:
+      summary: ''
+      operationId: postApiLogin
+      description: ''
+      parameters: []
+      responses: {  }
+      tags:
+        - Endpoints
+      security: []
+  /api/profile:
+    get:
+      summary: ''
+      operationId: getApiProfile
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+  /api/dashboard:
+    get:
+      summary: ''
+      operationId: getApiDashboard
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+  '/api/store/{storeId}/categories':
+    get:
+      summary: ''
+      operationId: getApiStoreStoreIdCategories
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: storeId
+        description: ''
+        example: nisi
+        required: true
+        schema:
+          type: string
+  '/api/store/{storeId}/categories/{categoryId}':
+    get:
+      summary: ''
+      operationId: getApiStoreStoreIdCategoriesCategoryId
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: storeId
+        description: ''
+        example: ducimus
+        required: true
+        schema:
+          type: string
+      -
+        in: path
+        name: categoryId
+        description: ''
+        example: vel
+        required: true
+        schema:
+          type: string
+  '/api/store/{storeId}/products':
+    get:
+      summary: ''
+      operationId: getApiStoreStoreIdProducts
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: storeId
+        description: ''
+        example: ea
+        required: true
+        schema:
+          type: string
+  '/api/store/{storeId}/category/{categoryId}/products':
+    get:
+      summary: ''
+      operationId: getApiStoreStoreIdCategoryCategoryIdProducts
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: storeId
+        description: ''
+        example: totam
+        required: true
+        schema:
+          type: string
+      -
+        in: path
+        name: categoryId
+        description: ''
+        example: provident
+        required: true
+        schema:
+          type: string
+  '/api/store/{storeId}/category/{categoryId}/products/{productId}':
+    get:
+      summary: ''
+      operationId: getApiStoreStoreIdCategoryCategoryIdProductsProductId
+      description: ''
+      parameters: []
+      responses:
+        401:
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
+                example:
+                  message: Unauthenticated.
+                properties:
+                  message:
+                    type: string
+                    example: Unauthenticated.
+      tags:
+        - Endpoints
+      security: []
+    parameters:
+      -
+        in: path
+        name: storeId
+        description: ''
+        example: ut
+        required: true
+        schema:
+          type: string
+      -
+        in: path
+        name: categoryId
+        description: ''
+        example: animi
+        required: true
+        schema:
+          type: string
+      -
+        in: path
+        name: productId
+        description: ''
+        example: itaque
+        required: true
+        schema:
+          type: string
+tags:
+  -
+    name: Endpoints
+    description: ''
