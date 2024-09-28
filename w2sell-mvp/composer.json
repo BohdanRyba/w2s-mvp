@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "darkaonline/l5-swagger": "^8.6",
         "ebess/advanced-nova-media-library": "^4.2",
         "laravel/framework": "^11.9",
         "laravel/nova": "*",
@@ -18,6 +19,7 @@
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
+        "knuckleswtf/scribe": "^4.37",
         "laravel/pint": "^1.13",
         "laravel/sail": "^1.32",
         "mockery/mockery": "^1.6",

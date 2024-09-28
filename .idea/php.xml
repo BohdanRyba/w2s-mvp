@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="LaravelPint">
+    <laravel_pint_settings>
+      <LaravelPintConfiguration tool_path="$PROJECT_DIR$/w2sell-mvp/vendor/bin/pint" />
+    </laravel_pint_settings>
+  </component>
   <component name="MessDetectorOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
@@ -146,11 +151,27 @@
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/spatie/laravel-medialibrary" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/spatie/image" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/ebess/advanced-nova-media-library" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/darkaonline/l5-swagger" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/swagger-api/swagger-ui" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/zircote/swagger-php" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/knuckleswtf/scribe" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/shalvah/upgrader" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/shalvah/clara" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/mpociot/reflection-docblock" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/spatie/data-transfer-object" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/w2sell-mvp/phpunit.xml" custom_loader_path="$PROJECT_DIR$/w2sell-mvp/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
