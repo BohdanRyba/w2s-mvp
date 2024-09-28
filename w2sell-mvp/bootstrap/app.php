@@ -22,8 +22,9 @@ return Application::configure(basePath: dirname(__DIR__))
             SubstituteBindings::class
         ]);
         $middleware->validateCsrfTokens(except: [
+            'nova/*',  // Example of a route to exclude from CSRF protection
             'webhook/*',  // Example of a route to exclude from CSRF protection
-            'api/*'
+            'api/*' // Example of a route to exclude from CSRF protection
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
