@@ -10,9 +10,11 @@ use App\Infrastructure\DTOs\LoginUserDTO;
 use App\Infrastructure\UseCase\LoginUserUseCase;
 use Auth;
 use Illuminate\Http\Request;
+use Knuckles\Scribe\Attributes\Header;
 
 class LoginController extends Controller
 {
+
     public function __construct(private LoginUserUseCase $loginUserUseCase)
     {
     }
@@ -40,6 +42,7 @@ class LoginController extends Controller
         ]);
     }
 
+    #[Header("Authorization", "Bearer 14|gdFHjoF3FN6bAJIIbCwFzsolxPDFHzBfDkmbLFcPd5ddf95b ")]
     public function profile()
     {
         $user = Auth::user();

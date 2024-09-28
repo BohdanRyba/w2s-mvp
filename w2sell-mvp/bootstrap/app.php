@@ -21,6 +21,10 @@ return Application::configure(basePath: dirname(__DIR__))
             EnsureFrontendRequestsAreStateful::class,
             SubstituteBindings::class
         ]);
+        $middleware->validateCsrfTokens(except: [
+            'webhook/*',  // Example of a route to exclude from CSRF protection
+            'api/*'
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

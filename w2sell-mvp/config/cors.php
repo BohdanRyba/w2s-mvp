@@ -14,11 +14,11 @@ return [
     | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     |
     */
-    'paths' => ['api/*', 'sanctum/csrf-cookie','login', 'logout'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie','login', 'logout', 'docs/*'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000', 'https://app.w2sell.test/'],
+    'allowed_origins' => ['http://localhost:3000', 'https://app.w2sell.test/','*'],
 
     'allowed_origins_patterns' => [],
 
