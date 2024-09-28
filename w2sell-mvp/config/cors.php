@@ -18,7 +18,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000', 'https://app.w2sell.test/','*'],
+    'allowed_origins' => ['http://localhost:3000', 'https://app.w2sell.test/','*','http://a4kkso08k8kwkwkg4cgow8s0.62.72.22.110.sslip.io/'],
 
     'allowed_origins_patterns' => [],
 
