@@ -19,6 +19,10 @@ class Store extends Model implements HasMedia
         'title',
         'short_description',
         'description',
+        'commission_rate',
+        'delivery_methods',
+        'contact_email',
+        'contact_phone',
         'image',
     ];
 
