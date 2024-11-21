@@ -18,6 +18,9 @@
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/symfony/var-exporter" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/zircote/swagger-php" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/_laravel_idea" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/storage/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/ryoluo/sail-ssl" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

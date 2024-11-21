@@ -162,6 +162,7 @@
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/mpociot/reflection-docblock" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/spatie/data-transfer-object" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/ryoluo/sail-ssl" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

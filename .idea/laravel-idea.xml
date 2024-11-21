@@ -13,7 +13,6 @@
         </option>
       </LaravelCodeGeneration>
     </option>
-    <option name="enabledCheckType" value="manual" />
     <option name="frameworkFound" value="true" />
     <option name="laravelBasePath" value="w2sell-mvp" />
     <option name="manualEnabled" value="true" />
