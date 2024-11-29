@@ -15,6 +15,7 @@ use App\Infrastructure\Services\Cart\Services\CartService;
 use App\Infrastructure\Services\Order\Repositories\OrderRepository;
 use App\Infrastructure\Services\Order\Services\OrderService;
 use App\Infrastructure\Services\TokenService;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -42,6 +43,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        URL::forceScheme('https');
     }
 }
