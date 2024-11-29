@@ -15,11 +15,11 @@
     {{--    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">--}}
     {{--    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">--}}
 
-    <link rel="icon" type="image/png" href="{{url('favicon/favicon-96x96.png')}}" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="{{url('favicon/favicon.svg')}}" />
-    <link rel="shortcut icon" href="{{url('favicon/favicon.ico')}}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{url('favicon/apple-touch-icon.png')}}" />
-    <link rel="manifest" href="{{url('favicon/site.webmanifest')}}" />
+    <link rel="icon" type="image/png" href="{{asset('favicon/favicon-96x96.png')}}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{asset('favicon/favicon.svg')}}" />
+    <link rel="shortcut icon" href="{{asset('favicon/favicon.ico')}}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon/apple-touch-icon.png')}}" />
+    <link rel="manifest" href="{{asset('favicon/site.webmanifest')}}" />
 
     <!-- google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
