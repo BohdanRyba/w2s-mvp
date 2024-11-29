@@ -15,7 +15,6 @@
     <link rel="shortcut icon" href="{{asset('favicon/favicon.ico')}}" />
     <link rel="apple-touch-icon" sizes="180x180" href="{{asset('favicon/apple-touch-icon.png')}}" />
     <link rel="manifest" href="{{asset('favicon/site.webmanifest')}}" />
-
     <!-- google fonts preconnect -->
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,8 +27,6 @@
     @stack('styles')
 </head>
 <body data-mobile-nav-style="classic" class="background-position-center-top" style="background-image: url(images/vertical-line-bg-small-medium-gray.svg)">
-{{url('')}}
-{{asset('')}}
 @include('includes.header')
 @yield('content')
 @include('includes.footer')
