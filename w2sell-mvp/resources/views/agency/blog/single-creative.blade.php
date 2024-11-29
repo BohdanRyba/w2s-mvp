@@ -1,114 +1,6 @@
-﻿<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <title>Crafto - The Multipurpose HTML5 Template</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons  -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/web-agency/web-agency.css" /> 
-    </head>
-    <body data-mobile-nav-style="classic" class="background-position-center-top" style="background-image: url(images/vertical-line-bg-small-medium-gray.svg)"> 
-        <!-- start header -->
-        <header> 
-            <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-light header-transparent bg-transparent disable-fixed">
-                <div class="container-fluid">
-                    <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                        <a class="navbar-brand" href="demo-web-agency.html">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="mobile-logo"> 
-                        </a>
-                    </div>
-                    <div class="col-auto col-lg-8 menu-order position-static">
-                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-                            <ul class="navbar-nav"> 
-                                <li class="nav-item"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                                <li class="nav-item dropdown dropdown-with-icon">
-                                    <a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a>
-                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Web design</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Web development</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>eCommerce solution</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Content writing</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> 
-                                <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>  
-                                <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto col-lg-2 text-end">
-                        <div class="header-icon"> 
-                            <div class="header-button">
-                                <a href="demo-web-agency-about.html" class="btn btn-rounded btn-dark-gray btn-medium btn-switch-text btn-box-shadow text-transform-none">
-                                    <span>
-                                        <span class="btn-double-text" data-text="Hire agency">Hire agency</span>
-                                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </nav>
-            <!-- end navigation -->
-        </header>
-        <!-- end header -->
-        <!-- start page title --> 
+﻿@extends('layout.base')
+@section('content')
+        <!-- start page title -->
         <section class="p-0 sm-pb-40px top-space-margin page-title-center-alignment">
             <div class="container">
                 <div class="row align-items-center justify-content-center small-screen sm-h-auto">
@@ -119,7 +11,7 @@
                 </div>
             </div>
         </section>
-        <!-- end page title --> 
+        <!-- end page title -->
         <!-- start section -->
         <section class="py-0 ps-13 pe-13 lg-ps-4 lg-pe-4 sm-px-0">
             <div class="container-fluid">
@@ -146,7 +38,7 @@
                                     <li class="me-25px"><a href="#" class="text-dark-gray-hover text-uppercase alt-font fs-13"><i class="feather icon-feather-message-circle me-5px icon-small align-middle"></i>Comment</a></li>
                                     <li><a href="#" class="text-dark-gray-hover text-uppercase alt-font fs-13"><i class="feather icon-feather-heart me-5px icon-small align-middle"></i>Like</a></li>
                                 </ul>
-                            </div>  
+                            </div>
                             <div class="offset-lg-1 col-md-8 last-paragraph-no-margin text-center text-md-start">
                                 <h3 class="alt-font fw-600 text-dark-gray">Make performance analysis an ongoing strategy.</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
@@ -216,17 +108,17 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section class="half-section pt-0"> 
+        <section class="half-section pt-0">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <div class="row mb-30px">
                             <div class="tag-cloud col-md-9 text-center text-md-start sm-mb-15px">
-                                <a href="demo-web-agency-blog.html">Development</a> 
+                                <a href="demo-web-agency-blog.html">Development</a>
                                 <a href="demo-web-agency-blog.html">Event</a>
                                 <a href="demo-web-agency-blog.html">Multimedia </a>
                                 <a href="demo-web-agency-blog.html">Fashion</a>
-                            </div> 
+                            </div>
                             <div class="tag-cloud col-md-3 text-uppercase text-center text-md-end">
                                 <a class="likes-count fw-500 mx-0" href="#"><i class="fa-regular fa-heart text-red me-10px"></i><span class="text-dark-gray text-dark-gray-hover">05 Likes</span></a>
                             </div>
@@ -252,7 +144,7 @@
                                     <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
                                     <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a></li>
                                     <li><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i><span></span></a></li>
-                                    <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i><span></span></a></li> 
+                                    <li><a class="linkedin" href="http://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i><span></span></a></li>
                                     <li><a class="behance" href="http://www.behance.com/" target="_blank"><i class="fa-brands fa-behance"></i><span></span></a></li>
                                 </ul>
                             </div>
@@ -263,7 +155,7 @@
         </section>
         <!-- end section -->
         <!-- start section -->
-        <section class="bg-very-light-gray"> 
+        <section class="bg-very-light-gray">
             <div class="container">
                 <div class="row justify-content-center mb-1">
                     <div class="col-lg-7 text-center">
@@ -287,7 +179,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- end blog item --> 
+                            <!-- end blog item -->
                             <!-- start blog item -->
                             <li class="grid-item design marketing">
                                 <div class="card bg-transparent border-0 h-100">
@@ -300,7 +192,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- end blog item --> 
+                            <!-- end blog item -->
                             <!-- start blog item -->
                             <li class="grid-item development other">
                                 <div class="card bg-transparent border-0 h-100">
@@ -337,7 +229,7 @@
         <section>
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-9 text-center mb-2"> 
+                    <div class="col-lg-9 text-center mb-2">
                         <h6 class="alt-font text-dark-gray fw-500">4 Comments</h6>
                     </div>
                 </div>
@@ -398,7 +290,7 @@
                                     </div>
                                 </div>
                             </li>
-                        </ul> 
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -418,13 +310,13 @@
                         <form action="email-templates/contact-form.php" method="post" class="row contact-form-style-02">
                             <div class="col-md-6 mb-30px">
                                 <input class="input-name border-radius-4px form-control required" type="text" name="name" placeholder="Enter your name*">
-                            </div> 
+                            </div>
                             <div class="col-md-6 mb-30px">
                                 <input class="border-radius-4px form-control required" type="email" name="email" placeholder="Enter your email address*">
-                            </div> 
+                            </div>
                             <div class="col-md-12 mb-30px">
                                 <textarea class="border-radius-4px form-control" cols="40" rows="4" name="comment" placeholder="Your message"></textarea>
-                            </div> 
+                            </div>
                             <div class="col-12">
                                 <input type="hidden" name="redirect" value="">
                                 <button class="btn btn-dark-gray btn-small btn-round-edge submit" type="submit">Post Comment</button>
@@ -450,7 +342,7 @@
                             <div class="fs-350 xl-fs-250 lg-fs-200 md-fs-170 sm-fs-100 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal">together
                                 <div class="position-absolute left-minus-140px top-minus-140px z-index-9 xl-left-minus-110px top-minus-140px xl-top-minus-100px md-top-minus-90px z-index-9 xl-w-230px md-w-200px d-none d-md-block">
                                     <img src="images/demo-web-agency-05.png" class="animation-rotation" alt="">
-                                    <div class="absolute-middle-center w-100 z-index-minus-1"><img src="images/demo-web-agency-04.png" alt=""></div> 
+                                    <div class="absolute-middle-center w-100 z-index-minus-1"><img src="images/demo-web-agency-04.png" alt=""></div>
                                 </div>
                             </div>
                         </div>
@@ -459,70 +351,4 @@
             </div>
         </section>
         <!-- end section -->
-        <!-- start footer -->
-        <footer class="p-0">
-            <div class="container">
-                <div class="row align-items-center mb-4 sm-mb-6">
-                    <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
-                        <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's make something great <a href="demo-web-agency-contact.html" class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">work together?</a></h5>
-                    </div>
-                    <div class="col-md-2 col-sm-4 text-center text-sm-end">
-                        <a href="demo-web-agency.html" class="footer-logo d-inline-block"><img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt=""></a>
-                    </div>
-                </div> 
-                <div class="row align-items-end mb-6 sm-mb-40px"> 
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                        <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - London</span>
-                        <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">401 Broadway, 24th Floor, Orchard View, London, UK</p>
-                    </div>
-                    <!-- end footer column -->  
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                        <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - France</span>
-                        <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">27 Eden Walk Eden Centre, Orchard View, Paris, France</p>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-md-3 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end"> 
-                        <a href="tel:1235678901" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+ 123 567 8901</a>
-                        <a href="mailto:info@domain.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">info@domain.com</a>
-                    </div>
-                    <!-- end footer column -->
-                </div>
-            </div> 
-            <div class="footer-bottom pt-25px pb-25px border-top border-color-charcoal-grey">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7 text-center text-lg-start md-mb-10px"> 
-                            <ul class="footer-navbar fw-600 fs-16"> 
-                                <li class="nav-item active"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> 
-                                <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>  
-                                <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a></li>
-                            </ul>
-                        </div>   
-                        <div class="col-lg-5 text-center text-lg-end"> 
-                            <span class="fs-15">&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-500" target="_blank">ThemeZaa</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll progress -->
-        <div class="scroll-progress d-none d-xxl-block">
-            <a href="#" class="scroll-top" aria-label="scroll">
-                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
-            </a>
-        </div>
-        <!-- end scroll progress -->
-        <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script> 
-    </body>
-</html>
+@endsection('content')

@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row align-items-center mb-4 sm-mb-6">
             <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
-                <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's make something great <a href="demo-web-agency-contact.html" class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">work together?</a></h5>
+                <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's make something great <a href="{{route('agency.contact')}}" class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">work together?</a></h5>
             </div>
             <div class="col-md-2 col-sm-4 text-center text-sm-end">
-                <a href="demo-web-agency.html" class="footer-logo d-inline-block"><img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt=""></a>
+                <a href="{{route('agency.index')}}" class="footer-logo d-inline-block"><img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt=""></a>
             </div>
         </div>
         <div class="row align-items-end mb-6 sm-mb-40px">
@@ -35,13 +35,13 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 text-center text-lg-start md-mb-10px">
                     <ul class="footer-navbar fw-600 fs-16">
-                        <li class="nav-item active"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
+                        <li class="nav-item active"><a href="{{route('agency.index')}}" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a></li>
+                        <li class="nav-item"><a href="{{route('agency.expertise')}}" class="nav-link">Expertise</a></li>
                         <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
                         <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li>
                         <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="{{route('agency.contact')}}" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5 text-center text-lg-end">

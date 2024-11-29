@@ -104,7 +104,7 @@
                     <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">Web Development</span>
                     <div class="position-relative pb-60px last-paragraph-no-margin">
                         <p class="lh-30 w-90 sm-w-100">We create reliable, efficient web solutions using Laravel, Django, and Next.js to bring innovative ideas to life with a focus on scalability and performance.</p>
-                        <a href="demo-web-agency-expertise.html" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                        <a href="{{route('agency.expertise')}}" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
                     </div>
                 </div>
                 <!-- end process step item -->
@@ -116,7 +116,7 @@
                     <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">eCommerce & Digital Transformation</span>
                     <div class="position-relative pb-60px last-paragraph-no-margin">
                         <p class="lh-30 w-90 sm-w-100">Building scalable e-commerce platforms with seamless integrations for payment gateways, social logins, and ERP systems—empowering digital growth and engagement.</p>
-                        <a href="demo-web-agency-expertise.html" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                        <a href="{{route('agency.expertise')}}" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
                     </div>
                 </div>
                 <!-- end process step item -->
@@ -128,7 +128,7 @@
                     <span class="fs-19 fw-600 text-dark-gray mb-5px d-block position-relative">AI, Automation & Cloud SaaS Solutions</span>
                     <div class="position-relative pb-60px last-paragraph-no-margin">
                         <p class="lh-30 w-90 sm-w-100">Leveraging AI, automation, and cloud technology, we deliver cutting-edge SaaS solutions that optimize business processes. Our expertise in AWS and serverless architecture ensures flexibility, scalability, and high efficiency.</p>
-                        <a href="demo-web-agency-expertise.html" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
+                        <a href="{{route('agency.expertise')}}" class="hover-content d-flex justify-content-center align-items-center icon-box w-45px h-45px rounded-circle bg-base-color border-2"><i class="feather icon-feather-arrow-right text-dark-gray icon-small"></i></a>
                     </div>
                 </div>
                 <!-- end process step item -->

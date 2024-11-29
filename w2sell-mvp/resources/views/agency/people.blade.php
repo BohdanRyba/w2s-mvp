@@ -1,114 +1,6 @@
-﻿<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <title>Crafto - The Multipurpose HTML5 Template</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="ThemeZaa">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-        <meta name="description" content="Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.">
-        <!-- favicon icon -->
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-        <!-- google fonts preconnect -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <!-- style sheets and font icons  -->
-        <link rel="stylesheet" href="css/vendors.min.css"/>
-        <link rel="stylesheet" href="css/icon.min.css"/>
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css"/>
-        <link rel="stylesheet" href="demos/web-agency/web-agency.css" /> 
-    </head>
-    <body data-mobile-nav-style="classic" class="background-position-center-top" style="background-image: url(images/vertical-line-bg-small-medium-gray.svg)"> 
-        <!-- start header -->
-        <header> 
-            <!-- start navigation -->
-            <nav class="navbar navbar-expand-lg header-light header-transparent bg-transparent disable-fixed">
-                <div class="container-fluid">
-                    <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                        <a class="navbar-brand" href="demo-web-agency.html">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="default-logo">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="alt-logo">
-                            <img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt="" class="mobile-logo"> 
-                        </a>
-                    </div>
-                    <div class="col-auto col-lg-8 menu-order position-static">
-                        <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                            <span class="navbar-toggler-line"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-                            <ul class="navbar-nav"> 
-                                <li class="nav-item"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                                <li class="nav-item dropdown dropdown-with-icon">
-                                    <a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a>
-                                    <i class="fa-solid fa-angle-down dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Web design</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Web development</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>eCommerce solution</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="demo-web-agency-services-details.html">
-                                                <img src="https://via.placeholder.com/130x130" class="w-40px" alt=""/> 
-                                                <div class="submenu-icon-content">
-                                                    <span>Content writing</span>
-                                                </div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> 
-                                <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>  
-                                <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto col-lg-2 text-end">
-                        <div class="header-icon"> 
-                            <div class="header-button">
-                                <a href="demo-web-agency-about.html" class="btn btn-rounded btn-dark-gray btn-medium btn-switch-text btn-box-shadow text-transform-none">
-                                    <span>
-                                        <span class="btn-double-text" data-text="Hire agency">Hire agency</span>
-                                        <span><i class="fa-solid fa-arrow-right"></i></span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-            </nav>
-            <!-- end navigation -->
-        </header>
-        <!-- end header -->
-        <!-- start page title --> 
+﻿@extends('layout.base')
+@section('content')
+        <!-- start page title -->
         <section class="p-0 top-space-margin page-title-center-alignment">
             <div class="container">
                 <div class="row align-items-center justify-content-center extra-very-small-screen">
@@ -170,33 +62,33 @@
                             <div class="swiper-slide">
                                 <div class="fs-170 sm-fs-150 text-base-color fw-600 ls-minus-8px word-break-normal">thinkers</div>
                             </div>
-                            <!-- end client item --> 
+                            <!-- end client item -->
                             <!-- start client item -->
                             <div class="swiper-slide">
                                 <div class="fs-170 sm-fs-150 text-dark-gray fw-600 ls-minus-8px word-break-normal">innovators</div>
                             </div>
-                            <!-- end client item --> 
+                            <!-- end client item -->
                             <!-- start client item -->
                             <div class="swiper-slide">
                                 <div class="fs-170 sm-fs-150 text-base-color fw-600 ls-minus-8px word-break-normal">socially</div>
                             </div>
-                            <!-- end client item --> 
+                            <!-- end client item -->
                             <!-- start client item -->
                             <div class="swiper-slide">
                                 <div class="fs-170 sm-fs-150 text-dark-gray fw-600 ls-minus-8px word-break-normal">dreamers</div>
                             </div>
-                            <!-- end client item --> 
-                        </div> 
-                    </div>  
+                            <!-- end client item -->
+                        </div>
+                    </div>
                 </div>
-            </div> 
+            </div>
         </section>
         <!-- end section -->
         <!-- start section -->
         <section>
-            <div class="container"> 
+            <div class="container">
                 <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2">
-                    <!-- start team member item --> 
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 mb-30px mt-3 lg-mt-0" data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -206,14 +98,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Jeremy dupont</div>
                         <span class="fs-16">Director</span>
                     </div>
-                    <!-- end team member item -->   
-                    <!-- start team member item --> 
+                    <!-- end team member item -->
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 mb-30px" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -223,14 +115,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Jessica dover</div>
                         <span class="fs-16">Founder</span>
                     </div>
-                    <!-- end team member item -->   
-                    <!-- start team member item --> 
+                    <!-- end team member item -->
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 mb-30px mt-3 lg-mt-0" data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -240,14 +132,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Matthew taylor</div>
                         <span class="fs-16">Designer</span>
                     </div>
-                    <!-- end team member item -->   
-                    <!-- start team member item --> 
+                    <!-- end team member item -->
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 mb-30px" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -257,14 +149,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Johncy parker</div>
                         <span class="fs-16">Writer</span>
                     </div>
                     <!-- end team member item -->
-                    <!-- start team member item --> 
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 md-mb-30px" data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -274,14 +166,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Michal ruheen</div>
                         <span class="fs-16">Executive</span>
                     </div>
                     <!-- end team member item -->
-                    <!-- start team member item --> 
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 md-mb-30px" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -291,14 +183,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Jeremy smith</div>
                         <span class="fs-16">Officer</span>
                     </div>
                     <!-- end team member item -->
-                    <!-- start team member item --> 
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05 xs-mb-30px" data-bottom-top="transform: translateY(30px)" data-top-bottom="transform: translateY(-30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -308,14 +200,14 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Herman miller</div>
                         <span class="fs-16">Officer</span>
                     </div>
                     <!-- end team member item -->
-                    <!-- start team member item --> 
+                    <!-- start team member item -->
                     <div class="col text-center team-style-05" data-bottom-top="transform: translateY(-30px)" data-top-bottom="transform: translateY(30px)">
                         <div class="position-relative mb-30px last-paragraph-no-margin border-radius-6px overflow-hidden">
                             <img src="https://via.placeholder.com/600x756" alt="" />
@@ -325,7 +217,7 @@
                                     <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a>
                                     <a href="http://www.dribbble.com" target="_blank" class="text-white"><i class="fa-brands fa-dribbble"></i></a>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                         <div class="fw-600 text-dark-gray lh-22">Bryan jonhson</div>
@@ -343,7 +235,7 @@
                     <div class="col-lg-5 text-center text-md-start">
                         <div class="position-sticky top-100px md-top-0px md-position-relative">
                             <div class="bg-dark-gray border-radius-100px fs-12 text-white ps-20px pe-20px d-inline-block text-uppercase fw-500 mb-5 ls-05px">Why work with us?</div>
-                            <h3 class="text-dark-gray fw-600 w-70 lg-w-80 md-w-100 ls-minus-2px">Become part of our team.</h3> 
+                            <h3 class="text-dark-gray fw-600 w-70 lg-w-80 md-w-100 ls-minus-2px">Become part of our team.</h3>
                         </div>
                     </div>
                     <div class="col-lg-7 text-center text-md-start" data-anime='{ "el": "childs", "translateY": [-15, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -374,7 +266,7 @@
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="row">
                     <div class="col-12 fs-22 text-center text-dark-gray ls-minus-05px md-mb-30px">We cultivate creativity and innovation together. <a href="#" class="fw-600 text-dark-gray text-dark-gray-hover text-decoration-line-bottom-medium">Want to join us?</a></div>
                 </div>
@@ -395,7 +287,7 @@
                             <div class="fs-350 xl-fs-250 lg-fs-200 md-fs-170 sm-fs-100 text-base-color fw-600 ls-minus-20px position-relative d-inline-block word-break-normal">together
                                 <div class="position-absolute left-minus-140px top-minus-140px z-index-9 xl-left-minus-110px top-minus-140px xl-top-minus-100px md-top-minus-90px z-index-9 xl-w-230px md-w-200px d-none d-md-block" data-anime='{ "translateY": [-15, 0], "scale": [0.5, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                                     <img src="images/demo-web-agency-05.png" class="animation-rotation" alt="">
-                                    <div class="absolute-middle-center w-100 z-index-minus-1"><img src="images/demo-web-agency-04.png" alt=""></div> 
+                                    <div class="absolute-middle-center w-100 z-index-minus-1"><img src="images/demo-web-agency-04.png" alt=""></div>
                                 </div>
                             </div>
                         </div>
@@ -404,70 +296,5 @@
             </div>
         </section>
         <!-- end section -->
-        <!-- start footer -->
-        <footer class="p-0">
-            <div class="container">
-                <div class="row align-items-center mb-4 sm-mb-6">
-                    <div class="col-md-10 col-sm-8 text-center text-sm-start xs-mb-25px">
-                        <h5 class="mb-0 text-dark-gray fw-400 ls-minus-1px">Let's make something great <a href="demo-web-agency-contact.html" class="text-decoration-line-bottom-medium fw-600 text-dark-gray text-dark-gray-hover">work together?</a></h5>
-                    </div>
-                    <div class="col-md-2 col-sm-4 text-center text-sm-end">
-                        <a href="demo-web-agency.html" class="footer-logo d-inline-block"><img src="images/demo-web-agency-logo-black.png" data-at2x="images/demo-web-agency-logo-black@2x.png" alt=""></a>
-                    </div>
-                </div> 
-                <div class="row align-items-end mb-6 sm-mb-40px"> 
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                        <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - London</span>
-                        <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">401 Broadway, 24th Floor, Orchard View, London, UK</p>
-                    </div>
-                    <!-- end footer column -->  
-                    <!-- start footer column -->
-                    <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                        <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - France</span>
-                        <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">27 Eden Walk Eden Centre, Orchard View, Paris, France</p>
-                    </div>
-                    <!-- end footer column -->
-                    <!-- start footer column -->
-                    <div class="col-md-3 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end"> 
-                        <a href="tel:1235678901" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+ 123 567 8901</a>
-                        <a href="mailto:info@domain.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">info@domain.com</a>
-                    </div>
-                    <!-- end footer column -->
-                </div>
-            </div> 
-            <div class="footer-bottom pt-25px pb-25px border-top border-color-charcoal-grey">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-7 text-center text-lg-start md-mb-10px"> 
-                            <ul class="footer-navbar fw-600 fs-16"> 
-                                <li class="nav-item active"><a href="demo-web-agency.html" class="nav-link">Home</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-expertise.html" class="nav-link">Expertise</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
-                                <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li> 
-                                <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>  
-                                <li class="nav-item"><a href="demo-web-agency-contact.html" class="nav-link">Contact</a></li>
-                            </ul>
-                        </div>   
-                        <div class="col-lg-5 text-center text-lg-end"> 
-                            <span class="fs-15">&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-500" target="_blank">ThemeZaa</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll progress -->
-        <div class="scroll-progress d-none d-xxl-block">
-            <a href="#" class="scroll-top" aria-label="scroll">
-                <span class="scroll-text">Scroll</span><span class="scroll-line"><span class="scroll-point"></span></span>
-            </a>
-        </div>
-        <!-- end scroll progress -->
-        <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/vendors.min.js"></script>
-        <script type="text/javascript" src="js/main.js"></script> 
-    </body>
-</html>
+
+@endsection('content')
