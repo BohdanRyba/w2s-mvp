@@ -60,7 +60,7 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a href="{{route('agency.projects')}}" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="{{route('agency.people')}}" class="nav-link">People</a></li>
+{{--                        <li class="nav-item"><a href="{{route('agency.people')}}" class="nav-link">People</a></li>--}}
                         <li class="nav-item"><a href="{{route('agency.blog')}}" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="{{route('agency.contact')}}" class="nav-link">Contact</a></li>
                     </ul>

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\Auth\SocialAuthController;
+use App\Http\Controllers\ContactFormController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -39,6 +40,7 @@ Route::get('/blog', function () {
     return view('agency.blog.index');
 })->name('agency.blog');
 
+Route::post('/contact-form',[ContactFormController::class,'store'])->name('contact-form.store');
 
 //
 //Route::get('/dashboard', function () {

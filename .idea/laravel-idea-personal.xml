@@ -5,6 +5,7 @@
       <map>
         <entry key="newModelSimpleOption:addFillable" value="1" />
         <entry key="newModelSimpleOption:softDeletes" value="1" />
+        <entry key="postGeneration:controller" value="1" />
         <entry key="postGeneration:databaseClassFactory" value="1" />
         <entry key="postGeneration:formRequest" value="1" />
         <entry key="postGeneration:jsonResource" value="1" />

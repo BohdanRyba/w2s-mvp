@@ -19,8 +19,14 @@
 {{--            <!-- end footer column -->--}}
             <!-- start footer column -->
             <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">AguRSoft - Ukraine</span>
-                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">182B Chornovola St., App. 9, Khmelnytskyi, Ukraine, 29000</p>
+                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">AguRSoft - <b style="position: relative; display: inline-block; color: #000;">
+    <span style="color: rgb(0, 87, 183)">Ukr</span><span style="color: rgb(255, 221, 0)">aine</span>
+    <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: inherit; box-shadow: 0 0 10px rgba(0, 87, 183, 0.6), 0 0 10px rgba(255, 221, 0, 0.6); pointer-events: none; filter: blur(8px);"></span>
+</b></span>
+                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">182B Chornovola St., App. 9, Khmelnytskyi, <b style="position: relative; display: inline-block; color: #000;">
+                        <span style="color: rgb(0, 87, 183)">Ukr</span><span style="color: rgb(255, 221, 0)">aine</span>
+                        <span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: inherit; box-shadow: 0 0 10px rgba(0, 87, 183, 0.6), 0 0 10px rgba(255, 221, 0, 0.6); pointer-events: none; filter: blur(8px);"></span>
+                    </b>, 29000</p>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
@@ -37,16 +43,16 @@
                 <div class="col-lg-7 text-center text-lg-start md-mb-10px">
                     <ul class="footer-navbar fw-600 fs-16">
                         <li class="nav-item active"><a href="{{route('agency.index')}}" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-about.html" class="nav-link">Agency</a></li>
+                        <li class="nav-item"><a href="{{route('agency.about')}}" class="nav-link">Agency</a></li>
                         <li class="nav-item"><a href="{{route('agency.expertise')}}" class="nav-link">Expertise</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-projects.html" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-people.html" class="nav-link">People</a></li>
-                        <li class="nav-item"><a href="demo-web-agency-blog.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="{{route('agency.projects')}}" class="nav-link">Projects</a></li>
+{{--                        <li class="nav-item"><a href="{{route('agency.people')}}" class="nav-link">People</a></li>--}}
+                        <li class="nav-item"><a href="{{route('agency.blog')}}" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="{{route('agency.contact')}}" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5 text-center text-lg-end">
-                    <span class="fs-15">&copy; 2024 Crafto is Proudly Powered by <a href="https://www.themezaa.com/" class="text-decoration-line-bottom text-dark-gray text-dark-gray-hover fw-500" target="_blank">ThemeZaa</a></span>
+                    <span class="fs-15">&copy; 2024 AgurSoft</span>
                 </div>
             </div>
         </div>
