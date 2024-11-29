@@ -24,8 +24,8 @@ server {
 
     # Proxy requests to the Laravel service
     location / {
-        proxy_pass	https://${APP_SERVICE};
-        # proxy_pass https://laravel.test:80;  # Replace 'laravel.test' with your Laravel service name
+        proxy_pass	http://${APP_SERVICE};
+        # proxy_pass http://laravel.test:80;  # Replace 'laravel.test' with your Laravel service name
 
         # Pass headers to Laravel
         proxy_set_header Host $host;
