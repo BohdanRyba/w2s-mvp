@@ -10,22 +10,23 @@
             </div>
         </div>
         <div class="row align-items-end mb-6 sm-mb-40px">
+{{--            Replace this address to international address--}}
+{{--            <!-- start footer column -->--}}
+{{--            <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">--}}
+{{--                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - London</span>--}}
+{{--                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">401 Broadway, 24th Floor, Orchard View, London, UK</p>--}}
+{{--            </div>--}}
+{{--            <!-- end footer column -->--}}
             <!-- start footer column -->
             <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - London</span>
-                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">401 Broadway, 24th Floor, Orchard View, London, UK</p>
-            </div>
-            <!-- end footer column -->
-            <!-- start footer column -->
-            <div class="col-lg-3 col-sm-4 text-center text-sm-start xs-mb-25px last-paragraph-no-margin">
-                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">Crafto - France</span>
-                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">27 Eden Walk Eden Centre, Orchard View, Paris, France</p>
+                <span class="d-block text-dark-gray ls-minus-05px mb-5px fw-600">AguRSoft - Ukraine</span>
+                <p class="w-80 lg-w-100 text-medium-gray fs-15 lh-28">182B Chornovola St., App. 9, Khmelnytskyi, Ukraine, 29000</p>
             </div>
             <!-- end footer column -->
             <!-- start footer column -->
             <div class="col-md-3 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end">
-                <a href="tel:1235678901" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+ 123 567 8901</a>
-                <a href="mailto:info@domain.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">info@domain.com</a>
+                <a href="tel:380972169161" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+380972169161</a>
+                <a href="mailto:web.dev.asoft@gmail.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">web.dev.asoft@gmail.com</a>
             </div>
             <!-- end footer column -->
         </div>

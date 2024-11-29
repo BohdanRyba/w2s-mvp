@@ -396,7 +396,7 @@
                             <!-- start review item -->
                             <div class="swiper-slide">
                                 <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">There are design companies and then there are user <span class="text-decoration-line-bottom-medium">experience.</span> Simply the great designs and best theme for fast loading.</h5>
-                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Jacob Kalling</span>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Konstantinos</span>
                             </div>
                             <!-- end review item -->
                         </div>
@@ -411,27 +411,32 @@
             <div class="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 clients-style-06 justify-content-center" data-anime='{ "el": "childs", "translateY": [0, 0], "scale": [1.1, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-walmart-white.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="images/companies/meest.webp" class="h-35px" alt="MeestExpress"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-netflix-white.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="images/companies/strategic-agenda.png" class="h-35px" alt="StrategicAgenda"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-invision-white.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="images/companies/robert-logo.png" class="h-35px" alt="Robert"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center sm-mb-40px">
-                    <a href="#"><img src="images/logo-yahoo-white.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="images/companies/lanza-logo-white.png" class="h-35px" alt="Lanza"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center">
-                    <a href="#"><img src="images/logo-amazon-white.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="images/companies/New_logo_FM_logistic.png" class="h-35px" alt=""></a>
+                </div>
+                <!-- end client item -->
+                <!-- start client item -->
+                <div class="col client-box text-center">
+                    <a href="#"><img src="images/companies/praxis-removebg-preview.png" class="h-35px" alt=""></a>
                 </div>
                 <!-- end client item -->
             </div>
