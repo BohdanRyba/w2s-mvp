@@ -9,11 +9,6 @@
     <meta name="description" content="@yield('meta_description', 'AgurSoft - Expert IT solutions for web development, e-commerce, and automation, serving Europe, the USA, and Israel. Let us elevate your business with our custom, full-stack expertise in Laravel, Django, Next.js, AWS, and more.')">
     <meta name="keywords" content="@yield('meta_keywords', 'AgurSoft, IT Solutions, Web Development, E-commerce, SaaS, Automation, AI, Laravel, Django, Next.js, AWS, Golang')">
     <meta name="robots" content="index, follow">
-    <!-- favicon icon -->
-    {{--    <link rel="shortcut icon" href="images/favicon.png">--}}
-    {{--    <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">--}}
-    {{--    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">--}}
-    {{--    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">--}}
 
     <link rel="icon" type="image/png" href="{{asset('favicon/favicon-96x96.png')}}" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="{{asset('favicon/favicon.svg')}}" />
@@ -33,6 +28,8 @@
     @stack('styles')
 </head>
 <body data-mobile-nav-style="classic" class="background-position-center-top" style="background-image: url(images/vertical-line-bg-small-medium-gray.svg)">
+{{url('')}}
+{{asset('')}}
 @include('includes.header')
 @yield('content')
 @include('includes.footer')
