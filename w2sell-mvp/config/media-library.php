@@ -111,6 +111,11 @@ return [
     'version_urls' => false,
 
     /*
+     *
+     *
+     */
+    'enable-existing-media' => true,
+    /*
      * The media library will try to optimize all converted images by removing
      * metadata and applying a little bit of compression. These are
      * the optimizers that will be used by default.

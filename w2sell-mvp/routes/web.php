@@ -36,9 +36,7 @@ Route::get('/people', function () {
     return view('agency.people');
 })->name('agency.people');
 
-Route::get('/blog', function () {
-    return view('agency.blog.index');
-})->name('agency.blog');
+Route::get('/blog', [\App\Http\Controllers\BlogPostController::class,'indexPage'])->name('agency.blog');
 
 Route::post('/contact-form',[ContactFormController::class,'store'])->name('contact-form.store');
 

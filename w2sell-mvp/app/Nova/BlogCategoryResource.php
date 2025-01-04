@@ -16,7 +16,7 @@ class BlogCategoryResource extends Resource
     public static $title = 'name';
 
     public static $search = [
-        'id', 'name'
+        'id', 'name', 'slug'
     ];
 
     public function fields(Request $request): array
@@ -25,6 +25,10 @@ class BlogCategoryResource extends Resource
             ID::make()->sortable(),
 
             Text::make('Name')
+                ->sortable()
+                ->rules('required'),
+
+            Text::make('Slug')
                 ->sortable()
                 ->rules('required'),
 

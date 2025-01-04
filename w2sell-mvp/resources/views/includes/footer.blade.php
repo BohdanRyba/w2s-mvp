@@ -32,7 +32,7 @@
             <!-- start footer column -->
             <div class="col-md-3 col-sm-4 last-paragraph-no-margin ms-auto text-center text-sm-end">
                 <a href="tel:380972169161" class="text-dark-gray d-block lh-18 text-dark-gray-hover">+380972169161</a>
-                <a href="mailto:web.dev.asoft@gmail.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">web.dev.asoft@gmail.com</a>
+                <a href="mailto:b.rybchynskyi@agursoft.com" class="text-dark-gray text-dark-gray-hover fw-600 text-decoration-line-bottom">b.rybchynskyi@agursoft.com</a>
             </div>
             <!-- end footer column -->
         </div>

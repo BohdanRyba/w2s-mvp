@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/w2sell-mvp/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/w2sell-mvp/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/w2sell-mvp/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/w2sell-mvp/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/w2sell-mvp/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/darkaonline/l5-swagger" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/doctrine/annotations" />
@@ -21,6 +22,12 @@
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/storage/app" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/storage/framework" />
       <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/ryoluo/sail-ssl" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/biscolab/laravel-recaptcha" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/cocur/slugify" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/cviebrock/eloquent-sluggable" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/w2sell-mvp/vendor/laravel/ui" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

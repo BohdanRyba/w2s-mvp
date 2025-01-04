@@ -2124,12 +2124,16 @@
                 data: formObj.serialize(),
                 success: function (result) {
                     _this.removeClass('loading');
+
                     if (redirectVal != '' && redirectVal != undefined) {
                         window.location.href = redirectVal;
                     } else {
                         if (typeof (result) !== 'undefined' && result !== null) {
-                            result = $.parseJSON(JSON.stringify(result));
-                            alert(result.meta.message)
+                            formObj[0].reset();
+                            if (formObj.find('.g-recaptcha').length) {
+                                grecaptcha.reset();
+                            }
+                            alert("We will contact you soon!");
                         }
                         formObj.find('input[type=text],input[type=url],input[type=email],input[type=tel],input[type=password],textarea').each(function () {
                             $(this).val('');

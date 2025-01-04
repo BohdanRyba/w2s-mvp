@@ -20,20 +20,20 @@
                  data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 300, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col sm-mb-30px text-center text-sm-start">
                     <span class="fs-14 text-uppercase fw-500 d-block">Have questions?</span>
-                    <a href="mailto:web.dev.asoft@gmail.com"
-                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">web.dev.asoft@gmail.com<span
+                    <a href="mailto:b.rybchynskyi@agursoft.com"
+                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">b.rybchynskyi@agursoft.com<span
                             class="bg-dark-gray"></span></a>
                 </div>
                 <div class="col sm-mb-30px text-center text-sm-start">
                     <span class="fs-14 text-uppercase fw-500 d-block">Join our team?</span>
-                    <a href="mailto:web.dev.asoft@gmail.com"
-                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">web.dev.asoft@gmail.com<span
+                    <a href="mailto:b.rybchynskyi@agursoft.com"
+                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">b.rybchynskyi@agursoft.com<span
                             class="bg-dark-gray"></span></a>
                 </div>
                 <div class="col text-center text-sm-start">
                     <span class="fs-14 text-uppercase fw-500 d-block">Business inquiries?</span>
-                    <a href="mailto:web.dev.asoft@gmail.com"
-                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">web.dev.asoft@gmail.com<span
+                    <a href="mailto:b.rybchynskyi@agursoft.com"
+                       class="fs-22 ls-minus-05px text-dark-gray fw-500 btn btn-link-gradient expand text-transform-none">b.rybchynskyi@agursoft.com<span
                             class="bg-dark-gray"></span></a>
                 </div>
             </div>
@@ -60,8 +60,8 @@
                             </b>, 29000</p>
                         <div class="d-block">
                             <span class="text-dark-gray fw-600">Email:</span>
-                            <a href="mailto:web.dev.asoft@gmail.com"
-                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">web.dev.asoft@gmail.com</a>
+                            <a href="mailto:b.rybchynskyi@agursoft.com"
+                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">b.rybchynskyi@agursoft.com</a>
                         </div>
                         <div class="d-block">
                             <span class="text-dark-gray fw-600">Phone:</span>
@@ -88,8 +88,8 @@
 {{--                        <p class="mt-10px mb-15px lh-28">21 Verneuil street, Office 136, Orchard View, London</p>--}}
 {{--                        <div class="d-block">--}}
 {{--                            <span class="text-dark-gray fw-600">Email:</span>--}}
-{{--                            <a href="mailto:web.dev.asoft@gmail.com"--}}
-{{--                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">web.dev.asoft@gmail.com</a>--}}
+{{--                            <a href="mailto:b.rybchynskyi@agursoft.com"--}}
+{{--                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">b.rybchynskyi@agursoft.com</a>--}}
 {{--                        </div>--}}
 {{--                        <div class="d-block">--}}
 {{--                            <span class="text-dark-gray fw-600">Phone:</span>--}}
@@ -116,8 +116,8 @@
 {{--                        <p class="mt-10px mb-15px lh-28">301 Broadway block, 24th floor, Orchard, Paris, France</p>--}}
 {{--                        <div class="d-block">--}}
 {{--                            <span class="text-dark-gray fw-600">Email:</span>--}}
-{{--                            <a href="mailto:web.dev.asoft@gmail.com"--}}
-{{--                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">web.dev.asoft@gmail.com</a>--}}
+{{--                            <a href="mailto:b.rybchynskyi@agursoft.com"--}}
+{{--                               class="fw-500 text-decoration-line-bottom text-dark-gray text-dark-gray-hover">b.rybchynskyi@agursoft.com</a>--}}
 {{--                        </div>--}}
 {{--                        <div class="d-block">--}}
 {{--                            <span class="text-dark-gray fw-600">Phone:</span>--}}
@@ -152,7 +152,7 @@
                      data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <h6 class="fw-500 text-dark-gray mb-20px sm-mb-10px ls-minus-05px"><span
                             class="fw-700">Hello,</span> Tell us about your project.</h6>
-                    <form action="{{route('contact-form.store')}}" method="post">
+                    <form id="contact-form" action="{{route('contact-form.store')}}" method="post">
                         @csrf
                         <div class="position-relative form-group mb-20px">
                             <span class="form-icon"><i class="bi bi-person icon-extra-medium text-dark-gray"></i></span>
@@ -172,6 +172,8 @@
                             <span class="form-icon"><i
                                     class="bi bi-chat-square-dots icon-extra-medium text-dark-gray"></i></span>
 {{--                            <input type="hidden" name="redirect" value="">--}}
+                            <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
                             <button
                                 class="btn submit btn-small btn-dark-gray btn-box-shadow btn-round-edge mt-35px mb-25px w-100"
                                 type="submit">Send message
@@ -259,5 +261,7 @@
             </div>
         </div>
     </section>
+    <script src="https://www.google.com/recaptcha/api.js?render=your_site_key" async defer></script>
+
     <!-- end section -->
 @endsection

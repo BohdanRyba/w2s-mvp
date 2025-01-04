@@ -3,10 +3,13 @@
 namespace App\Nova;
 
 use App\Models\BlogPost;
+use Ebess\AdvancedNovaMediaLibrary\Fields\Files;
+use Ebess\AdvancedNovaMediaLibrary\Fields\Images;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\Date;
+use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 
@@ -25,11 +28,14 @@ class BlogPostResource extends Resource
         return [
             ID::make()->sortable(),
 
+            Images::make('Post title', 'blog_post_image')
+                ->rules( 'required'),
+
             Text::make('Title')
                 ->sortable()
                 ->rules('required'),
 
-            Date::make('Published At')
+            DateTime::make('Published At')
                 ->sortable()
                 ->rules('required', 'date'),
 

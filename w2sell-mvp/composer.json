@@ -6,6 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "biscolab/laravel-recaptcha": "^6.1",
+        "cviebrock/eloquent-sluggable": "^11.0",
         "darkaonline/l5-swagger": "^8.6",
         "ebess/advanced-nova-media-library": "^4.2",
         "laravel/framework": "^11.9",
@@ -14,7 +16,7 @@
         "laravel/socialite": "^5.16",
         "laravel/tinker": "^2.9",
         "sereny/nova-permissions": "^1.6",
-        "spatie/laravel-medialibrary": "^11.9",
+        "spatie/laravel-medialibrary": "^11.11",
         "spatie/laravel-permission": "^6.9"
     },
     "require-dev": {
