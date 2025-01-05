@@ -63,7 +63,7 @@
                         class="text-box-wrapper align-items-center d-flex position-relative overflow-hidden border-radius-6px">
                         <div class="text-center w-100">
                             <div class="text-box last-paragraph-no-margin p-20">
-                                <img src="https://via.placeholder.com/220x220" class="w-110px mb-20px d-block mx-auto"
+                                <img src="{{url('images/expertize/demo-web-agency-expertise-01.png')}}" class="w-110px mb-20px d-block mx-auto"
                                      alt=""/>
                                 <span class="alt-font text-dark-gray fw-600 fs-20">Discussion</span>
                             </div>
@@ -71,8 +71,7 @@
                                 class="text-box-hover bg-dark-gray h-100 d-flex align-items-center justify-content-center flex-column">
                                 <h1 class="text-outline text-outline-color-base-color mb-10px ls-minus-2px fw-600 position-absolute bottom-minus-40px">
                                     01</h1>
-                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Lorem ipsum simply
-                                    dummy text printing dummy industry.</p>
+                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Collaborate, share ideas, and align goals to lay the foundation for success.</p>
                                 <span class="alt-font fw-500 fs-20 text-white mb-20px">Discussion</span>
                             </div>
                         </div>
@@ -85,7 +84,7 @@
                         class="text-box-wrapper align-items-center d-flex position-relative overflow-hidden border-radius-6px">
                         <div class="text-center w-100">
                             <div class="text-box last-paragraph-no-margin p-20">
-                                <img src="https://via.placeholder.com/220x220" class="w-110px mb-20px d-block mx-auto"
+                                <img src="{{url('images/expertize/demo-web-agency-expertise-02.png')}}" class="w-110px mb-20px d-block mx-auto"
                                      alt=""/>
                                 <span class="alt-font text-dark-gray fw-600 fs-20">Strategy</span>
                             </div>
@@ -93,8 +92,7 @@
                                 class="text-box-hover bg-dark-gray h-100 d-flex align-items-center justify-content-center flex-column">
                                 <h1 class="text-outline text-outline-color-base-color mb-10px ls-minus-2px fw-600 position-absolute bottom-minus-40px">
                                     02</h1>
-                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Lorem ipsum simply
-                                    dummy text printing dummy industry.</p>
+                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Craft a clear roadmap and actionable plans to achieve your vision.</p>
                                 <span class="alt-font fw-500 fs-20 text-white mb-20px">Strategy</span>
                             </div>
                         </div>
@@ -107,7 +105,7 @@
                         class="text-box-wrapper align-items-center d-flex position-relative overflow-hidden border-radius-6px">
                         <div class="text-center w-100">
                             <div class="text-box last-paragraph-no-margin p-20">
-                                <img src="https://via.placeholder.com/220x220" class="w-110px mb-20px d-block mx-auto"
+                                <img src="{{url('images/expertize/demo-web-agency-expertise-03.png')}}" class="w-110px mb-20px d-block mx-auto"
                                      alt=""/>
                                 <span class="alt-font text-dark-gray fw-600 fs-20">Execute</span>
                             </div>
@@ -115,8 +113,7 @@
                                 class="text-box-hover bg-dark-gray h-100 d-flex align-items-center justify-content-center flex-column">
                                 <h1 class="text-outline text-outline-color-base-color mb-10px ls-minus-2px fw-600 position-absolute bottom-minus-40px">
                                     03</h1>
-                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Lorem ipsum simply
-                                    dummy text printing dummy industry.</p>
+                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Turn plans into reality with focused and efficient action.</p>
                                 <span class="alt-font fw-500 fs-20 text-white mb-20px">Execute</span>
                             </div>
                         </div>
@@ -129,7 +126,7 @@
                         class="text-box-wrapper align-items-center d-flex position-relative overflow-hidden border-radius-6px">
                         <div class="text-center w-100">
                             <div class="text-box last-paragraph-no-margin p-20">
-                                <img src="https://via.placeholder.com/220x220" class="w-110px mb-20px d-block mx-auto"
+                                <img src="{{url('images/expertize/demo-web-agency-expertise-04.png')}}" class="w-110px mb-20px d-block mx-auto"
                                      alt=""/>
                                 <span class="alt-font text-dark-gray fw-600 fs-20">Launch</span>
                             </div>
@@ -137,8 +134,7 @@
                                 class="text-box-hover bg-dark-gray h-100 d-flex align-items-center justify-content-center flex-column">
                                 <h1 class="text-outline text-outline-color-base-color mb-10px ls-minus-2px fw-600 position-absolute bottom-minus-40px">
                                     04</h1>
-                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Lorem ipsum simply
-                                    dummy text printing dummy industry.</p>
+                                <p class="d-inline-block w-70 mb-10px text-white opacity-5 lg-w-90">Deliver your solution to the world and set it in motion.</p>
                                 <span class="alt-font fw-500 fs-20 text-white mb-20px">Launch</span>
                             </div>
                         </div>
@@ -191,13 +187,12 @@
                         <div class="col-md-7 offset-lg-1 icon-with-text-style-01 md-mb-25px">
                             <div class="feature-box feature-box-left-icon-middle last-paragraph-no-margin">
                                 <div class="feature-box-icon me-50px md-me-35px">
-                                    <img src="https://via.placeholder.com/130x130" class="w-75px" alt=""/>
+                                    <img src="{{url('images/expertize/demo-web-agency-expertise-06.png')}}" class="w-75px" alt=""/>
                                 </div>
                                 <div class="feature-box-content">
                                     <span class="d-inline-block text-dark-gray mb-5px fs-20 ls-minus-05px">Pixel perfect <span
                                             class="fw-700">web design</span></span>
-                                    <p class="w-90 md-w-100">Lorem ipsum is simply dummy text of the printing
-                                        typesetting industry been text.</p>
+                                    <p class="w-90 md-w-100">Crafting visually stunning designs that are precise, responsive, and user-friendly.</p>
                                 </div>
                             </div>
                         </div>
@@ -215,14 +210,13 @@
                         <div class="col-md-7 offset-lg-1 icon-with-text-style-01 md-mb-25px">
                             <div class="feature-box feature-box-left-icon-middle last-paragraph-no-margin">
                                 <div class="feature-box-icon me-50px md-me-35px">
-                                    <img src="https://via.placeholder.com/130x130" class="w-75px" alt=""/>
+                                    <img src="{{url('images/expertize/demo-web-agency-expertise-07.png')}}" class="w-75px" alt=""/>
                                 </div>
                                 <div class="feature-box-content">
                                     <span
                                         class="d-inline-block text-dark-gray mb-5px fs-20 ls-minus-05px">Creative <span
                                             class="fw-700">web development</span></span>
-                                    <p class="w-90 md-w-100">Lorem ipsum is simply dummy text of the printing
-                                        typesetting industry been text.</p>
+                                    <p class="w-90 md-w-100">Building dynamic and innovative websites that bring your ideas to life.</p>
                                 </div>
                             </div>
                         </div>
@@ -239,13 +233,12 @@
                         <div class="col-md-7 offset-lg-1 icon-with-text-style-01 md-mb-25px">
                             <div class="feature-box feature-box-left-icon-middle last-paragraph-no-margin">
                                 <div class="feature-box-icon me-50px md-me-35px">
-                                    <img src="https://via.placeholder.com/130x130" class="w-75px" alt=""/>
+                                    <img src="{{url('images/expertize/demo-web-agency-expertise-08.png')}}" class="w-75px" alt=""/>
                                 </div>
                                 <div class="feature-box-content">
                                     <span class="d-inline-block text-dark-gray mb-5px fs-20 ls-minus-05px">Best <span
                                             class="fw-700">eCommerce solution</span></span>
-                                    <p class="w-90 md-w-100">Lorem ipsum is simply dummy text of the printing
-                                        typesetting industry been text.</p>
+                                    <p class="w-90 md-w-100">Empowering your online store with seamless functionality and unmatched performance.</p>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +258,7 @@
                         <i class="bi bi-envelope"></i>
                     </div>
                     <div class="d-inline-block align-middle text-white sm-lh-24">Our nearly <span
-                            class="fw-500">254+</span> creative and expertise people are ready to help! <a
+                            class="fw-500">20+</span> creative and expertise people are ready to help! <a
                             href="{{route('agency.contact')}}" class="text-white fw-500 text-decoration-line-bottom">Contact
                             now</a></div>
                 </div>
@@ -274,66 +267,50 @@
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="pb-4 lg-pb-6 position-relative">
+    <section class="pb-4 lg-pb-6 sm-pb-50px position-relative bg-dark-gray section-dark">
+        <div class="cover-background position-absolute h-100 w-100 left-0px top-0px" style="background-image: url('{{url('images/demo-web-agency-bg-01.png')}}')"></div>
         <div class="container position-relative">
-            <div class="row justify-content-center mb-6 sm-mb-30px"
-                 data-anime='{ "el": "childs", "translateY": [0, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <div class="row justify-content-center align-items-center mb-9 xl-mb-5 sm-mb-30px" data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <div class="col-lg-5">
-                    <h3 class="text-dark-gray fw-600 ls-minus-2px w-80 lg-w-100">Trusted by genius people.</h3>
-                    <div class="mb-30px d-flex align-items-center md-mb-30px">
-                        <div class="fw-700 fs-70 text-dark-gray me-10px">4.82</div>
+                    <div class="mb-15 d-flex align-items-center md-mb-30px">
+                        <div class="fw-700 fs-80 text-white me-10px">4.82</div>
                         <div class="text-center">
-                            <div
-                                class="bg-base-color text-dark-gray border-radius-30px ps-20px pe-20px fs-16 ls-minus-2px">
+                            <div class="bg-base-color text-dark-gray border-radius-30px ps-20px pe-20px fs-16 ls-minus-2px">
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                             </div>
-                            <span class="text-dark-gray fs-13 fw-500 text-uppercase">Clutch review</span>
+                            <span class="text-white fs-13 fw-500 text-uppercase">Clutch review</span>
                         </div>
                     </div>
                     <div class="d-flex md-mb-25px">
                         <!-- start slider navigation -->
-                        <div
-                            class="slider-one-slide-prev-1 bg-white border border-color-extra-medium-gray text-dark-gray swiper-button-prev slider-navigation-style-04">
-                            <i class="fa-solid fa-arrow-left"></i></div>
-                        <div
-                            class="slider-one-slide-next-1 bg-white border border-color-extra-medium-gray text-dark-gray swiper-button-next slider-navigation-style-04">
-                            <i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="slider-one-slide-prev-1 bg-sherpa-blue text-white swiper-button-prev slider-navigation-style-04 w-60px h-60px"><i class="fa-solid fa-arrow-left"></i></div>
+                        <div class="slider-one-slide-next-1 bg-sherpa-blue text-white swiper-button-next slider-navigation-style-04 w-60px h-60px"><i class="fa-solid fa-arrow-right"></i></div>
                         <!-- end slider navigation -->
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-7 overflow-hidden offset-xl-1">
-                    <div class="swiper magic-cursor"
-                         data-slider-options='{ "slidesPerView": 1, "spaceBetween": 40, "loop": true, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 1 }, "768": { "slidesPerView":1 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
+                    <div class="swiper magic-cursor light" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 40, "loop": true, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "992": { "slidesPerView": 1 }, "768": { "slidesPerView":1 }, "320": { "slidesPerView": 1 } }, "effect": "slide" }'>
                         <div class="swiper-wrapper">
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-dark-gray mb-20px w-90 xl-w-100 lh-42 fw-400 ls-minus-1px">The <span
-                                        class="text-decoration-line-bottom-medium fw-700">wonderful</span> services you
-                                    offer locally are great for our community. People are tired of having to travel out
-                                    of town for things.</h5>
-                                <span class="text-dark-gray fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Herman miller</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">The AgurSoft team successfully developed a universal data bus for our courier application and internal services. This <span class="text-decoration-line-bottom-medium">significantly improved the efficiency</span> of our operations. The high level of professionalism and responsibility made cooperation with them invaluable.</h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Brandon</span>
                             </div>
                             <!-- end review item -->
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-dark-gray mb-20px w-90 xl-w-100 lh-42 fw-400 ls-minus-1px">Absolutely
-                                    amazing theme and <span
-                                        class="text-decoration-line-bottom-medium fw-700">awesome</span> design with
-                                    possibilities. It's so very easy to use and to customize everything.</h5>
-                                <span class="text-dark-gray fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Alexander Harad</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">AgurSoft provided us with highly qualified specialists who immediately fit into our team. Their professionalism and deep knowledge made the cooperation <span class="text-decoration-line-bottom-medium">effective and reliable.</span></h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Alexander</span>
                             </div>
                             <!-- end review item -->
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-dark-gray mb-20px w-90 xl-w-100 lh-42 fw-400 ls-minus-1px">There are
-                                    design companies and then there are user <span
-                                        class="text-decoration-line-bottom-medium fw-700">experience.</span> Simply the
-                                    great designs and best theme for fast loading.</h5>
-                                <span class="text-dark-gray fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Jacob Kalling</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">AgurSoft created a system for translators and an innovative SaaS product for AI clients. They demonstrated <span class="text-decoration-line-bottom-medium">excellent expertise</span>, adherence to deadlines, and a commitment to our success.</h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Frank</span>
                             </div>
                             <!-- end review item -->
                         </div>
@@ -342,35 +319,38 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <div class="separator-line-1px w-100 bg-dark-gray opacity-1 mb-6 sm-mb-30px"></div>
+                    <div class="separator-line-1px w-100 bg-white opacity-1 mb-6 sm-mb-30px"></div>
                 </div>
             </div>
-            <div
-                class="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 clients-style-06 justify-content-center"
-                data-anime='{ "el": "childs", "translateY": [15, 0], "scale": [0.8, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+            <div class="row row-cols-1 row-cols-lg-5 row-cols-md-3 row-cols-sm-2 clients-style-06 justify-content-center" data-anime='{ "el": "childs", "translateY": [0, 0], "scale": [1.1, 1], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-walmart-dark-gray.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="{{url('images/companies/meest.webp')}}" class="h-35px" alt="MeestExpress"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-invision-dark-gray.svg" class="h-40px" alt=""></a>
+                    <a href="#"><img src="{{url('images/companies/strategic-agenda.png')}}" class="h-35px" alt="StrategicAgenda"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center md-mb-40px">
-                    <a href="#"><img src="images/logo-netflix-dark-gray.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="{{url('images/companies/robert-logo.png')}}" class="h-35px" alt="Robert"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center sm-mb-40px">
-                    <a href="#"><img src="images/logo-logitech-dark-gray.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="{{url('images/companies/lanza-logo-white.png')}}" class="h-35px" alt="Lanza"></a>
                 </div>
                 <!-- end client item -->
                 <!-- start client item -->
                 <div class="col client-box text-center">
-                    <a href="#"><img src="images/logo-amazon-dark-gray.svg" class="h-35px" alt=""></a>
+                    <a href="#"><img src="{{url('images/companies/New_logo_FM_logistic.png')}}" class="h-35px" alt=""></a>
+                </div>
+                <!-- end client item -->
+                <!-- start client item -->
+                <div class="col client-box text-center">
+                    <a href="#"><img src="images/companies/praxis-removebg-preview.png" class="h-35px" alt=""></a>
                 </div>
                 <!-- end client item -->
             </div>

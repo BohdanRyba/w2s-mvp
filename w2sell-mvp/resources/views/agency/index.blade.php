@@ -81,7 +81,7 @@
                 <div class="col-lg-5 offset-lg-1 z-index-9 md-mt-35px" data-anime='{ "el": "childs", "translateX": [15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                     <h1 class="text-dark-gray fw-600 mb-40px md-mb-25px outside-box-left-15 md-outside-box-left-0 ls-minus-3px word-break-normal">We Deliver Reliable Digital Solutions.</h1>
                     <p class="lh-34 w-95 mb-30px lg-w-100">
-                        We’re passionate about crafting digital experiences that make a real impact for our clients. With over <span class="text-dark-gray fw-600 text-decoration-line-bottom">12 years of experience</span>, we have consistently delivered top-tier web solutions that set new standards in quality and reliability. Our approach is always client-centered, ensuring that each project aligns perfectly with their unique goals and needs.
+                        We’re passionate about crafting digital experiences that make a real impact for our clients. With over <span class="text-dark-gray fw-600 text-decoration-line-bottom">8 years of experience</span>, we have consistently delivered top-tier web solutions that set new standards in quality and reliability. Our approach is always client-centered, ensuring that each project aligns perfectly with their unique goals and needs.
                     </p>
                     <a href="demo-web-agency-about.html" class="btn btn-large btn-expand-ltr text-dark-gray btn-rounded fw-700"><span class="bg-base-color"></span>About agency</a>
                     <div class="outside-box-right-30 position-absolute right-0px bottom-minus-50px xl-outside-box-right-25 md-outside-box-right-0 d-none d-md-inline-block">
@@ -383,20 +383,20 @@
                         <div class="swiper-wrapper">
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">The <span class="text-decoration-line-bottom-medium">wonderful</span> services you offer locally are great for our community. People are tired of having to travel out of town for things.</h5>
-                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Herman miller</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">The AgurSoft team successfully developed a universal data bus for our courier application and internal services. This <span class="text-decoration-line-bottom-medium">significantly improved the efficiency</span> of our operations. The high level of professionalism and responsibility made cooperation with them invaluable.</h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Brandon</span>
                             </div>
                             <!-- end review item -->
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">Absolutely amazing theme and <span class="text-decoration-line-bottom-medium">awesome</span> design with possibilities. It's so very easy to use and to customize everything.</h5>
-                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Alexander Harad</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">AgurSoft provided us with highly qualified specialists who immediately fit into our team. Their professionalism and deep knowledge made the cooperation <span class="text-decoration-line-bottom-medium">effective and reliable.</span></h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Alexander</span>
                             </div>
                             <!-- end review item -->
                             <!-- start review item -->
                             <div class="swiper-slide">
-                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">There are design companies and then there are user <span class="text-decoration-line-bottom-medium">experience.</span> Simply the great designs and best theme for fast loading.</h5>
-                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Konstantinos</span>
+                                <h5 class="text-white mb-20px w-90 xl-w-100 lh-42 fw-400">AgurSoft created a system for translators and an innovative SaaS product for AI clients. They demonstrated <span class="text-decoration-line-bottom-medium">excellent expertise</span>, adherence to deadlines, and a commitment to our success.</h5>
+                                <span class="text-base-color fw-600 d-block fs-15 text-uppercase lh-22 ls-2px">@Frank</span>
                             </div>
                             <!-- end review item -->
                         </div>
@@ -451,65 +451,30 @@
                     <h2 class="fw-600 text-dark-gray mb-0 ls-minus-3px">Latest blogs</h2>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
-                    <a href="demo-web-agency-blog.html" class="btn btn-large btn-expand-ltr text-dark-gray btn-rounded fw-700"><span class="bg-base-color"></span>Explore all blogs</a>
+                    <a href="{{route('agency.blog')}}" class="btn btn-large btn-expand-ltr text-dark-gray btn-rounded fw-700"><span class="bg-base-color"></span>Explore all blogs</a>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 p-md-0">
                     <ul class="blog-classic blog-wrapper grid-loading grid grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large" data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <li class="grid-sizer"></li>
+                        @forelse($posts as $post)
                         <!-- start blog item -->
                         <li class="grid-item">
                             <div class="card bg-transparent border-0 h-100">
                                 <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/550x395" alt=""></a>
+                                    <a href="{{route('agency.blog.post', $post->slug)}}"><img style="min-height: 275px" src="{{$post->image_url}}" alt=""></a>
                                 </div>
                                 <div class="card-body p-0 pt-30px sm-pt-20px lg-pb-20px">
-                                    <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">Decor</a><a href="#" class="blog-date text-medium-gray-hover">08 August 2023</a></span>
-                                    <a href="demo-web-agency-blog-single-creative.html" class="card-title fw-600 fs-17 lh-28 text-dark-gray text-dark-gray-hover d-inline-block w-95 sm-w-100">The best influencers to follow for sartorial inspiration.</a>
+                                    <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">{{$post->blogCategory->name}}</a><a href="#" class="blog-date text-medium-gray-hover">{{$post->published_at->diffForHumans('',['short'=>true])}}</a></span>
+                                    <a href="demo-web-agency-blog-single-creative.html" class="card-title fw-600 fs-17 lh-28 text-dark-gray text-dark-gray-hover d-inline-block w-95 sm-w-100">{{$post->short_description}}</a>
                                 </div>
                             </div>
                         </li>
                         <!-- end blog item -->
-                        <!-- start blog item -->
-                        <li class="grid-item">
-                            <div class="card bg-transparent border-0 h-100">
-                                <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/550x395" alt=""></a>
-                                </div>
-                                <div class="card-body p-0 pt-30px sm-pt-20px lg-pb-20px">
-                                    <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">Design</a><a href="#" class="blog-date text-medium-gray-hover">12 August 2023</a></span>
-                                    <a href="demo-web-agency-blog-single-creative.html" class="card-title fw-600 fs-17 lh-28 text-dark-gray text-dark-gray-hover d-inline-block w-95 sm-w-100">Everything you need to know about decor's big night out.</a>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end blog item -->
-                        <!-- start blog item -->
-                        <li class="grid-item">
-                            <div class="card bg-transparent border-0 h-100">
-                                <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/550x395" alt=""></a>
-                                </div>
-                                <div class="card-body p-0 pt-30px sm-pt-20px lg-pb-20px">
-                                    <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">Decor</a><a href="#" class="blog-date text-medium-gray-hover">20 August 2023</a></span>
-                                    <a href="demo-web-agency-blog-single-creative.html" class="card-title fw-600 fs-17 lh-28 text-dark-gray text-dark-gray-hover d-inline-block w-95 sm-w-100">All the best looks &amp; moments from the met gala 2023.</a>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end blog item -->
-                        <!-- start blog item -->
-                        <li class="grid-item">
-                            <div class="card bg-transparent border-0 h-100">
-                                <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/550x395" alt=""></a>
-                                </div>
-                                <div class="card-body p-0 pt-30px sm-pt-20px lg-pb-20px">
-                                    <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">Decor</a><a href="#" class="blog-date text-medium-gray-hover">26 August 2023</a></span>
-                                    <a href="demo-web-agency-blog-single-creative.html" class="card-title fw-600 fs-17 lh-28 text-dark-gray text-dark-gray-hover d-inline-block w-95 sm-w-100">Find a colour palettes that reflects your passion.</a>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end blog item -->
+                        @empty
+
+                        @endforelse
                     </ul>
                 </div>
             </div>

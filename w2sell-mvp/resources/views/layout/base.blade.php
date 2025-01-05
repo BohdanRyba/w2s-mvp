@@ -39,16 +39,7 @@
 <script type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/vendors.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
-@stack('scripts')
 <script src="https://www.google.com/recaptcha/api.js?render={{ config('recaptcha.api_site_key') }}" async defer></script>
-
-<script>
-    grecaptcha.ready(function() {
-        console.log(grecaptcha)
-        grecaptcha.execute('{{ config('recaptcha.api_site_key') }}', {action: 'contact_form'}).then(function(token) {
-            document.getElementById('g-recaptcha-response').value = token;
-        });
-    });
-</script>
+@stack('scripts')
 </body>
 </html>

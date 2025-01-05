@@ -27,7 +27,7 @@
                             @forelse($popularPosts as $post)
                                 <li class="d-sm-flex align-items-center mb-35px">
                                     <figure>
-                                        <a href="demo-web-agency-blog-single-creative.html"><img style="min-height: 195px" src="{{ $post->image_url }}" class="border-radius-4px" alt=""></a>
+                                        <a href="{{route('agency.blog.post', $post->slug)}}"><img style="min-height: 195px" src="{{ $post->image_url }}" class="border-radius-4px" alt=""></a>
                                     </figure>
                                     <div class="col media-body">
                                         <a href="demo-web-agency-blog-single-creative.html" class="fw-600 fs-22 lh-30 ls-minus-05px text-dark-gray text-dark-gray-hover d-inline-block mb-15px w-85 xl-w-100">{{$post->title}}</a>
@@ -43,7 +43,7 @@
 
 {{--                            <li class="d-sm-flex align-items-center mb-35px">--}}
 {{--                                <figure>--}}
-{{--                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/600x415" class="border-radius-4px" alt=""></a>--}}
+{{--                                    <a href="{{route('agency.blog.post', $post->slug)}}"><img src="https://via.placeholder.com/600x415" class="border-radius-4px" alt=""></a>--}}
 {{--                                </figure>--}}
 {{--                                <div class="col media-body">--}}
 {{--                                    <a href="demo-web-agency-blog-single-creative.html" class="fw-600 fs-22 lh-30 ls-minus-05px text-dark-gray text-dark-gray-hover d-inline-block mb-15px w-85 xl-w-100">The golden rule finds no limit application in business.</a>--}}
@@ -56,7 +56,7 @@
 {{--                            </li>--}}
 {{--                            <li class="d-sm-flex align-items-center">--}}
 {{--                                <figure>--}}
-{{--                                    <a href="demo-web-agency-blog-single-creative.html"><img src="https://via.placeholder.com/600x415" class="border-radius-4px" alt=""></a>--}}
+{{--                                    <a href="{{route('agency.blog.post', $post->slug)}}"><img src="https://via.placeholder.com/600x415" class="border-radius-4px" alt=""></a>--}}
 {{--                                </figure>--}}
 {{--                                <div class="col media-body">--}}
 {{--                                    <a href="demo-web-agency-blog-single-creative.html" class="fw-600 fs-22 lh-30 ls-minus-05px text-dark-gray text-dark-gray-hover d-inline-block mb-15px w-85 xl-w-100">Ambition is to be the spider in the world wide web.</a>--}}
@@ -99,7 +99,7 @@
                                 <li class="grid-item {{$post->blogCategory->slug}} other">
                                     <div class="card bg-transparent border-0 h-100">
                                         <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                            <a href="demo-web-agency-blog-single-creative.html"><img style="min-height: 275px" src="{{ $post->image_url }}" alt="{{$post->title}}"></a>
+                                            <a href="{{route('agency.blog.post', $post->slug)}}"><img style="min-height: 275px" src="{{ $post->image_url }}" alt="{{$post->title}}"></a>
                                         </div>
                                         <div class="card-body px-0 pt-30px pb-30px xs-pb-15px">
                                             <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">{{$post->blogCategory->name}}</a><a href="#" class="blog-date text-medium-gray-hover">{{$post->published_at->diffForHumans('',['short'=>true])}}</a></span>

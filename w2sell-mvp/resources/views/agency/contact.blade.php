@@ -210,21 +210,23 @@
                     </div>
                     <ul class="extra-large-icon fw-600"
                         data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 500, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                        <li><a class="facebook" href="https://www.facebook.com" target="_blank"><span
-                                    class="brand-label text-dark-gray">Fb</span><span
-                                    class="brand-icon fa-brands fa-facebook-f"></span></a></li>
-                        <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><span
-                                    class="brand-label text-dark-gray">Db</span><span
-                                    class="brand-icon fa-brands fa-dribbble"></span></a></li>
-                        <li><a class="twitter" href="http://www.twitter.com" target="_blank"><span
-                                    class="brand-label text-dark-gray">Tw</span><span
-                                    class="brand-icon fa-brands fa-twitter"></span></a></li>
-                        <li><a class="behance" href="http://www.behance.com" target="_blank"><span
-                                    class="brand-label text-dark-gray">Be</span><span
-                                    class="brand-icon fa-brands fa-behance"></span></a></li>
-                        <li><a class="pinterest" href="https://in.pinterest.com" target="_blank"><span
-                                    class="brand-label text-dark-gray">Pt</span><span
-                                    class="brand-icon fa-brands fa-pinterest-p"></span></a></li>
+                        <li><a class="pinterest" href="https://clutch.co/profile/agursoft#highlights" target="_blank">Cl.</a> </li>
+                        <li><a class="instagram" href="https://www.instagram.com/agursoft_company/" target="_blank">IN.</a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/agursoft-technologies" target="_blank">Ln.</a></li>
+                        <li><a class="spotify" href="https://www.upwork.com/agencies/agursoft/" target="_blank">Up.</a> </li>
+{{--                        <li><a class="facebook" href="https://www.facebook.com" target="_blank"><span class="brand-label text-dark-gray">Fb</span><span class="brand-icon fa-brands fa-facebook-f"></span></a></li>--}}
+{{--                        <li><a class="dribbble" href="http://www.dribbble.com" target="_blank"><span--}}
+{{--                                    class="brand-label text-dark-gray">Db</span><span--}}
+{{--                                    class="brand-icon fa-brands fa-dribbble"></span></a></li>--}}
+{{--                        <li><a class="twitter" href="http://www.twitter.com" target="_blank"><span--}}
+{{--                                    class="brand-label text-dark-gray">Tw</span><span--}}
+{{--                                    class="brand-icon fa-brands fa-twitter"></span></a></li>--}}
+{{--                        <li><a class="behance" href="http://www.behance.com" target="_blank"><span--}}
+{{--                                    class="brand-label text-dark-gray">Be</span><span--}}
+{{--                                    class="brand-icon fa-brands fa-behance"></span></a></li>--}}
+{{--                        <li><a class="pinterest" href="https://in.pinterest.com" target="_blank"><span--}}
+{{--                                    class="brand-label text-dark-gray">Pt</span><span--}}
+{{--                                    class="brand-icon fa-brands fa-pinterest-p"></span></a></li>--}}
                     </ul>
                 </div>
             </div>
@@ -261,7 +263,17 @@
             </div>
         </div>
     </section>
-    <script src="https://www.google.com/recaptcha/api.js?render=your_site_key" async defer></script>
-
     <!-- end section -->
+    @push('scripts')
+        <script>
+            window.onload = function () {
+                grecaptcha.ready(function() {
+                    console.log(grecaptcha)
+                    grecaptcha.execute('{{ config('recaptcha.api_site_key') }}', {action: 'contact_form'}).then(function(token) {
+                        document.getElementById('g-recaptcha-response').value = token;
+                    });
+                });
+            }
+        </script>
+    @endpush
 @endsection

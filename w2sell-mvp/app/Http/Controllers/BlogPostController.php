@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\BlogPostRequest;
 use App\Http\Resources\BlogPostResource;
 use App\Models\BlogPost;
+use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
 
 class BlogPostController extends Controller
@@ -30,9 +31,17 @@ class BlogPostController extends Controller
         return new BlogPostResource(BlogPost::create($request->validated()));
     }
 
-    public function show(BlogPost $blogPost)
+    public function show(Request $request, $slug)
     {
-        return new BlogPostResource($blogPost);
+        $post = BlogPost::with('blogCategory')->where('slug', $slug)->where('published_at', '<=', Carbon::now())->latest('published_at')->whereIsPublished(true)->firstOrFail();
+
+        $relatedPosts = BlogPost::where('blog_category_id', $post->blog_category_id)
+            ->where('id', '!=', $post->id) // Exclude the current post
+            ->where('published_at', '<=', Carbon::now())
+            ->whereIsPublished(true)
+            ->latest('published_at')
+            ->take(4) // Limit to 4 posts
+            ->get();        return view('agency.blog.single-creative', compact('post', 'relatedPosts'));
     }
 
     public function update(BlogPostRequest $request, BlogPost $blogPost)

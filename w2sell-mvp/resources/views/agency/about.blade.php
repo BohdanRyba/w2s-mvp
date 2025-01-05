@@ -100,6 +100,62 @@
 {{--            </div>--}}
 {{--        </section>--}}
 {{--        <!-- end section -->--}}
+
+
+        <!-- start section -->
+        <section class="pt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6">
+                        <h2 class="text-dark-gray fw-600 mb-10 ls-minus-2px">Let us help you get your project started.</h2>
+                        <div class="outside-box-left-35 d-none d-lg-inline-block">
+                            <div class="fs-350 xl-fs-300 lg-fs-250 text-base-color fw-600 ls-minus-20px word-break-normal"
+                                 data-bottom-top="transform:scale(1, 1) translate3d(0px, 0px, 0px);"
+                                 data-top-bottom="transform:scale(1, 1) translate3d(-100px, 0px, 0px);">contact
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 contact-form-style-03"
+                         data-anime='{ "el": "childs", "translateY": [-15, 0], "opacity": [0,1], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                        <h6 class="fw-500 text-dark-gray mb-20px sm-mb-10px ls-minus-05px"><span
+                                class="fw-700">Hello,</span> Tell us about your project.</h6>
+                        <form id="contact-form" action="{{route('contact-form.store')}}" method="post">
+                            @csrf
+                            <div class="position-relative form-group mb-20px">
+                                <span class="form-icon"><i class="bi bi-person icon-extra-medium text-dark-gray"></i></span>
+                                <input class="ps-0 border-radius-0px border-color-dark-gray form-control required"
+                                       type="text" name="name" placeholder="Your name*"/>
+                            </div>
+                            <div class="position-relative form-group mb-20px">
+                            <span class="form-icon"><i
+                                    class="bi bi-envelope icon-extra-medium text-dark-gray"></i></span>
+                                <input
+                                    class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control required"
+                                    type="email" name="email" placeholder="Your email address*"/>
+                            </div>
+                            <div class="position-relative form-group form-textarea mb-0">
+                            <textarea class="ps-0 border-radius-0px border-bottom border-color-dark-gray form-control"
+                                      name="message" placeholder="Your message" rows="4"></textarea>
+                                <span class="form-icon"><i
+                                        class="bi bi-chat-square-dots icon-extra-medium text-dark-gray"></i></span>
+                                {{--                            <input type="hidden" name="redirect" value="">--}}
+                                <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+
+                                <button
+                                    class="btn submit btn-small btn-dark-gray btn-box-shadow btn-round-edge mt-35px mb-25px w-100"
+                                    type="submit">Send message
+                                </button>
+                                <p class="fs-14 lh-24 w-100 mb-0 text-center text-lg-start">We are committed to protecting
+                                    your privacy. We will never collect information about you without your explicit
+                                    consent.</p>
+                                <div class="form-results mt-20px d-none"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section -->
         <!-- start section -->
         <section class="pb-0">
             <div class="container">
@@ -311,4 +367,17 @@
             </div>
         </section>
         <!-- end section -->
+
+        @push('scripts')
+            <script>
+                window.onload = function () {
+                    grecaptcha.ready(function() {
+                        console.log(grecaptcha)
+                        grecaptcha.execute('{{ config('recaptcha.api_site_key') }}', {action: 'contact_form'}).then(function(token) {
+                            document.getElementById('g-recaptcha-response').value = token;
+                        });
+                    });
+                }
+            </script>
+        @endpush
 @endsection

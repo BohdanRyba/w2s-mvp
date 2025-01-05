@@ -45,7 +45,7 @@
                         <li class="nav-item active"><a href="{{route('agency.index')}}" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="{{route('agency.about')}}" class="nav-link">Agency</a></li>
                         <li class="nav-item"><a href="{{route('agency.expertise')}}" class="nav-link">Expertise</a></li>
-                        <li class="nav-item"><a href="{{route('agency.projects')}}" class="nav-link">Projects</a></li>
+{{--                        <li class="nav-item"><a href="{{route('agency.projects')}}" class="nav-link">Projects</a></li>--}}
 {{--                        <li class="nav-item"><a href="{{route('agency.people')}}" class="nav-link">People</a></li>--}}
                         <li class="nav-item"><a href="{{route('agency.blog')}}" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="{{route('agency.contact')}}" class="nav-link">Contact</a></li>
