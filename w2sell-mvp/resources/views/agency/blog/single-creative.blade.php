@@ -40,7 +40,7 @@
 {{--                                </ul>--}}
 {{--                            </div>--}}
                             <div class="offset-lg-1 col-md-8 last-paragraph-no-margin text-center text-md-start">
-                                {{$post->content}}
+                                {!! $post->content !!}
                             </div>
                         </div>
                     </div>
