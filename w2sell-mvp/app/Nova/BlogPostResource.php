@@ -13,6 +13,7 @@ use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Textarea;
+use Webard\NovaSunEditor\SunEditor;
 
 class BlogPostResource extends Resource
 {
@@ -48,9 +49,9 @@ class BlogPostResource extends Resource
             Boolean::make('Is Published')->sortable()->rules('required')->default(true),
             Boolean::make('Is Ai')->sortable()->rules('required')->default(false),
 
-            Textarea::make('Content')
-                ->sortable()
-                ->rules('required'),
+            SunEditor::make('Content', 'content')
+                ->rules('required', 'string')
+                ->hideFromIndex(),
 
             Text::make('Tags')
                 ->sortable()

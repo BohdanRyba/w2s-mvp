@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5ab2179569f8bb1c35bec3cf4c7f5e48",
+    "content-hash": "f0cbebc79cdfa7ce99b489137c93cec2",
     "packages": [
         {
             "name": "biscolab/laravel-recaptcha",
@@ -8039,6 +8039,57 @@
                 }
             ],
             "time": "2022-03-08T17:03:00+00:00"
+        },
+        {
+            "name": "webard/nova-suneditor",
+            "version": "v1.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webard/nova-suneditor.git",
+                "reference": "5aabdf36c571f077976a9095f2702f5f92c47928"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webard/nova-suneditor/zipball/5aabdf36c571f077976a9095f2702f5f92c47928",
+                "reference": "5aabdf36c571f077976a9095f2702f5f92c47928",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/nova": "^4.20",
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Webard\\NovaSunEditor\\FieldServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Webard\\NovaSunEditor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Custom field for Laravel Nova that integrates the SunEditor, a lightweight and flexible WYSIWYG editor",
+            "keywords": [
+                "laravel",
+                "nova",
+                "suneditor",
+                "wysiwyg"
+            ],
+            "support": {
+                "issues": "https://github.com/webard/nova-suneditor/issues",
+                "source": "https://github.com/webard/nova-suneditor/tree/v1.1.9"
+            },
+            "time": "2024-11-18T07:42:12+00:00"
         },
         {
             "name": "webmozart/assert",

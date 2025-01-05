@@ -165,6 +165,7 @@
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/guzzlehttp/uri-template" />
       <path value="$PROJECT_DIR$/w2sell-mvp/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/w2sell-mvp/vendor/webard/nova-suneditor" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
