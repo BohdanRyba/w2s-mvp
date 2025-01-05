@@ -12,6 +12,7 @@ use Laravel\Nova\Fields\Date;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Textarea;
 
 class BlogPostResource extends Resource
 {
@@ -47,7 +48,7 @@ class BlogPostResource extends Resource
             Boolean::make('Is Published')->sortable()->rules('required')->default(true),
             Boolean::make('Is Ai')->sortable()->rules('required')->default(false),
 
-            Text::make('Content')
+            Textarea::make('Content')
                 ->sortable()
                 ->rules('required'),
 
