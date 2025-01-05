@@ -52,7 +52,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-5 text-center text-lg-end">
-                    <span class="fs-15">&copy; 2024 AgurSoft</span>
+                    <span class="fs-15">&copy; 2025 AgurSoft</span>
                 </div>
             </div>
         </div>

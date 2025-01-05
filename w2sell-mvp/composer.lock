@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "72777daccc4f488701de6a135b6b1cd9",
+    "content-hash": "5ab2179569f8bb1c35bec3cf4c7f5e48",
     "packages": [
         {
             "name": "biscolab/laravel-recaptcha",
@@ -1111,21 +1111,21 @@
         },
         {
             "name": "ebess/advanced-nova-media-library",
-            "version": "4.3",
+            "version": "4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ebess/advanced-nova-media-library.git",
-                "reference": "35414fe480cc3ed847d34edef9794f24bb4c22f4"
+                "reference": "08b5b8827bc42dcaf53944232774914006d82adc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ebess/advanced-nova-media-library/zipball/35414fe480cc3ed847d34edef9794f24bb4c22f4",
-                "reference": "35414fe480cc3ed847d34edef9794f24bb4c22f4",
+                "url": "https://api.github.com/repos/ebess/advanced-nova-media-library/zipball/08b5b8827bc42dcaf53944232774914006d82adc",
+                "reference": "08b5b8827bc42dcaf53944232774914006d82adc",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
-                "laravel/nova": "^4.0|^5.0",
+                "laravel/nova": "^4.0",
                 "php": ">=7.4",
                 "spatie/laravel-medialibrary": "^8.0|^9.0|^10.0|^11.0"
             },
@@ -1153,9 +1153,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ebess/advanced-nova-media-library/issues",
-                "source": "https://github.com/ebess/advanced-nova-media-library/tree/4.3"
+                "source": "https://github.com/ebess/advanced-nova-media-library/tree/4.2"
             },
-            "time": "2025-01-03T06:48:03+00:00"
+            "time": "2024-03-18T06:36:40+00:00"
         },
         {
             "name": "egulias/email-validator",

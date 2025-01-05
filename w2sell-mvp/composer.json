@@ -9,7 +9,7 @@
         "biscolab/laravel-recaptcha": "^6.1",
         "cviebrock/eloquent-sluggable": "^11.0",
         "darkaonline/l5-swagger": "^8.6",
-        "ebess/advanced-nova-media-library": "^4.2",
+        "ebess/advanced-nova-media-library": "4.2",
         "laravel/framework": "^11.9",
         "laravel/nova": "*",
         "laravel/sanctum": "^4.0",

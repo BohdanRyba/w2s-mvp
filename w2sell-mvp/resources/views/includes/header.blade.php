@@ -49,14 +49,6 @@
                                         </div>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="{{route('agency.expertise.service', 'service1')}}">
-                                        <img src="{{url('/images/demo-web-agency-expertise-09.webp')}}" class="w-40px" alt=""/>
-                                        <div class="submenu-icon-content">
-                                            <span>Content writing</span>
-                                        </div>
-                                    </a>
-                                </li>
                             </ul>
                         </li>
 {{--                        <li class="nav-item"><a href="{{route('agency.projects')}}" class="nav-link">Projects</a></li>--}}
