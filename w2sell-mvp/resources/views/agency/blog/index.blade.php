@@ -99,7 +99,7 @@
                                 <li class="grid-item {{$post->blogCategory->slug}} other">
                                     <div class="card bg-transparent border-0 h-100">
                                         <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                            <a href="{{route('agency.blog.post', $post->slug)}}"><img style="min-height: 275px" src="{{ $post->image_url }}" alt="{{$post->title}}"></a>
+                                            <a href="{{route('agency.blog.post', $post->slug)}}"><img src="{{ $post->image_url }}" alt="{{$post->title}}"></a>
                                         </div>
                                         <div class="card-body px-0 pt-30px pb-30px xs-pb-15px">
                                             <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="demo-web-agency-blog.html" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">{{$post->blogCategory->name}}</a><a href="#" class="blog-date text-medium-gray-hover">{{$post->published_at->diffForHumans('',['short'=>true])}}</a></span>

@@ -171,7 +171,7 @@
                                 <li class="grid-item design marketing">
                                     <div class="card bg-transparent border-0 h-100">
                                         <div class="blog-image position-relative overflow-hidden border-radius-4px">
-                                            <a href="{{route('agency.blog.post', $relatedPost->slug)}}"><img style="min-height: 275px" src="{{$relatedPost->image_url}}" alt=""></a>
+                                            <a href="{{route('agency.blog.post', $relatedPost->slug)}}"><img src="{{$relatedPost->image_url}}" alt=""></a>
                                         </div>
                                         <div class="card-body px-0 pt-30px pb-30px xs-pb-15px">
                                             <span class="fs-14 text-uppercase d-block mb-5px fw-500"><a href="{{route('agency.blog.post', $relatedPost->slug)}}" class="text-dark-gray text-dark-gray-hover fw-700 categories-text">{{$relatedPost->blogCategory->name}}</a><a href="#" class="blog-date text-medium-gray-hover">{{$post->published_at->diffForHumans('',['short'=>true])}}</a></span>
