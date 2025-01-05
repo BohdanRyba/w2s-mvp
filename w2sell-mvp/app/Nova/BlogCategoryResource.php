@@ -29,8 +29,8 @@ class BlogCategoryResource extends Resource
                 ->rules('required'),
 
             Text::make('Slug')
-                ->sortable()
-                ->rules('required'),
+                ->nullable()
+                ->sortable(),
 
             Number::make('Sort Order')
                 ->sortable()
